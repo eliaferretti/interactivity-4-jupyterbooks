@@ -1,0 +1,14 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: src/intro.md
+parts:
+  - caption: Animation in Jupyter Books
+    chapters:
+      - file: src/plotly_plots.ipynb
+      - file: src/matplotlib_anim.ipynb
+      - file: src/geogebra_applet.ipynb
+      - file: src/pyodide.ipynb    
+      
+
